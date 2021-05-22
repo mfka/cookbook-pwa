@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/cookbook-pwa/sw.js', { scope: '/cookbook-pwa/' })})}
